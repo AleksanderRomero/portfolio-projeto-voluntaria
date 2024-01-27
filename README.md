@@ -4,7 +4,7 @@
 
 `Desenvolvimento de aplicação web front-end`
 
-O objetivo deste projeto é a criação de uma aplicação web que permita as pessoas a se cadastrarem como voluntários para projetos sociais e que as empresas interessadas publiquem projetos.
+O propósito deste projeto é desenvolver uma aplicação web dedicada a facilitar o cadastro de voluntários em projetos sociais, proporcionando também às empresas a oportunidade de publicar seus projetos. O foco é criar uma plataforma intuitiva e eficiente que conecte de maneira transparente pessoas engajadas em ações sociais. A plataforma incorpora elementos de gamificação para tornar a experiência mais envolvente e motivadora. Ao se cadastrar como voluntário e participar ativamente de projetos sociais, os usuários acumulam pontos e desbloqueiam conquistas. Essa abordagem lúdica não apenas incentiva a participação contínua, mas também reconhece e celebra o impacto positivo de cada voluntário na comunidade.
 
 # Documentação
 
