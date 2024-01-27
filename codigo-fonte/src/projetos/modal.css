@@ -1,0 +1,242 @@
+.modal-container {
+    display: none;
+    margin: 0;
+    position: relative;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.0);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    margin: 10%;
+    border-radius: 20px;
+    background-color: #2a1b3d;
+    width: 60%;
+    max-height: 80%;
+    overflow: hidden;
+    box-shadow: 1px 10px 22px #616161;
+
+}
+
+.modal-header {
+    position: relative;
+    max-height: 80px;
+    background-color: #d83f87;
+}
+
+.modal-imagem-container {
+    margin: 0;
+    height: 300px;
+    background: url("images/imagem-voluntarios-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+}
+
+.modal-footer {
+    display: flex;
+    align-self: center;
+    margin: 0;
+    height: 60px;
+}
+
+.modal-titulo {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: block;
+    width: 100%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+.fechar-modal {
+    display: flex;
+}
+
+.modal-descricao-container {
+    display: block;
+    width: 100%;
+    margin: 0;
+    background-color: #2a1b3d;
+
+}
+
+.modal-descricao {
+    padding: 25px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.modal-dados-empresa-horas {
+    position: relative;
+    height: 150px;
+    background-color: white;
+}
+
+.img-empresa {
+    width: 45px;
+}
+
+.img-horas {
+    width: 45px;
+}
+
+.modal-empresa {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    top: -22px;
+    right: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.modal-horas {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    top: -22px;
+    left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modal-horas h3 {
+    font-size: 1.1em;
+}
+
+.modal-horas h4 {
+    font-size: 0.8em;
+}
+
+.modal-empresa h3 {
+    font-size: 1.1em;
+}
+
+.btn-participar {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 3px 10px 3px 10px;
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d83f87;
+    color: white;
+    font-size: 1.15em;
+    transition: background-color 0.5s;
+}
+
+.btn-participar:hover {
+    background-color: #7f66a7;
+    scale: 1.1;
+}
+
+.modal-dados-empresa-horas {
+    font-size: 1.1em;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.btn-fechar-modal {
+    position: absolute;
+    top: 13px;
+    right: 16px;
+    height: 1.7rem;
+    fill: white;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.btn-fechar-modal:hover {
+    scale: 1.2;
+}
+
+@media screen and (max-width: 576px) {
+    .modal-empresa {
+        margin: 0;
+        padding: 5px;
+        width: auto;
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+    }
+
+    .modal-horas {
+        padding: 5px;
+        width: auto;
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+
+    }
+
+    .modal-dados-empresa-horas {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .modal-descricao-container {
+        padding-bottom: 0;
+    }
+
+    .img-empresa {
+        width: 25px;
+    }
+
+    .img-horas {
+        width: 25px;
+    }
+
+    .modal-horas h3 {
+        font-size: 1em;
+    }
+
+    .modal-horas h4 {
+        font-size: 0.6em;
+    }
+
+    .modal-empresa h3 {
+        font-size: 1em;
+    }
+
+    .modal-titulo {
+        font-size: 1rem;
+    }
+
+    .btn-fechar-modal {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        height: 1.4rem;
+        fill: white;
+        align-self: flex-end;
+        cursor: pointer;
+    }
+}
